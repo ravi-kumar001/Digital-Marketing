@@ -1,0 +1,128 @@
+/* *{
+    margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+}
+body{
+    background: linear-gradient(90deg ,#d6d2d2 35% , #ffa8a8fa);
+    font-family: "Roboto", sans-serif;
+} */
+.mainContentWrapper{
+    padding: 50px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.contentContainer{
+    flex: 6;
+}
+.imageContainer{
+    flex: 6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 420px;
+    position: relative;
+}
+
+/* STYLING THE IMAGE CONTAINER */
+
+.mainImgcnt{
+    position: relative;
+}
+
+.mainImage{
+    height: 345px;
+    width: 225px;
+    position: absolute;
+    top: -28%;
+    left: 10%;
+}
+
+.imgEclipse{
+    height: 277px;
+}
+
+.imgMegaPhone{
+    height: 185px;
+    position: absolute;
+    top: -4%;
+    left: 0%;
+}
+.imgTargetMarking{
+    position: absolute;
+    top: 0%;
+    right: 9%;
+    height: 130px;
+}
+
+.imgCurve{
+    position: absolute;
+    height: 110px;
+    bottom: 7%;
+    right: 27%;
+}
+
+.title{
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    margin-top: 5px;
+}
+
+.about{
+        font-size: 25px;
+        width: 291px;
+        font-weight: 600;
+        letter-spacing: 0.30px;
+        margin-bottom: 30px;
+        position: relative;
+}
+
+.about span{
+    color: rgb(185, 58, 58);
+}
+
+.details{
+    font-size: 12px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+.options{
+    display: flex;
+    margin-bottom: 45px;
+}
+.optionButton1{
+    width: 200px;
+    height: 35px;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    background-color: black;
+    margin-right: 40px;
+}
+
+.optionButton2{
+    width: 130px;
+    height: 35px;
+    border: 1px solid rgb(29, 28, 28);
+    border-radius: 20px;
+}
+.optionForBrand{
+    display: flex;
+}
+.optionForBrand p{
+    margin-right: 5px;
+}
+
+.optionForBrand .brandInfo{
+    width: 150px;
+    font-weight: 500;
+    font-size: 12px;
+}
+.imgJahaj{
+    height: 110px;
+        position: absolute;
+        top: -64px;
+        right: -29%;
+
+}

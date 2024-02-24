@@ -1,0 +1,18 @@
+.card {
+  flex: 0 0 calc(33.3333% - 10px);
+  box-sizing: border-box;
+  height: 12rem;
+  width: 6rem;
+  border: 1px solid #ddd;
+  border-radius: 2rem;
+  padding: 16px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.card h1{
+  font-size: 3rem;
+}
+.card p {
+  font-size: 0.6rem;
+  font-weight: 200;
+}

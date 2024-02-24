@@ -1,30 +1,25 @@
-import Link from 'next/link';
-import React, { Fragment } from 'react';
-
+import classes from './Navbar.module.css'
 const Navbar = () => {
+
     return (
-        <Fragment>
+        <div className={classes.nav}>
+            <div className={classes.logo} >
+                <span className={classes.log}>DIGITAL</span>
+                <br />
+                <span>MARKETING</span>
+            </div>
+            <div className={classes.container} >
+                <div className={classes.navItems}>HOME</div>
+                <div className={classes.navItems}>ABOUT US</div>
+                <div className={classes.navItems}>SERVICES</div>
+                <div className={classes.navItems}>PROJECTS</div>
+                <div className={classes.navItems}>CONTACT US</div>
+                <div className={classes.navItems}>MORE</div>
+                <div className={classes.navItems}>LOGIN</div>
+                <div className={classes.navItems}>SIGN UP</div>
+            </div>
+        </div>
 
-
-            <nav>
-                <div>
-                    <h1><b>Digital Marketing</b></h1>
-
-                </div>
-                <div>
-                    <Link href={'/home'}>Home</Link>
-                    <Link href={'/home'}>About Us</Link>
-                    <Link href={'/home'}>Services</Link>
-                    <Link href={'/home'}>Projects</Link>
-                    <Link href={'/home'}>Contact Us</Link>
-                    <Link href={'/home'}>More</Link>
-                </div>
-                <div>
-                    <Link href={'/home'}>LOGIN</Link>
-                    <Link href={'/home'}>SIGN UP</Link>
-                </div>
-            </nav>
-        </Fragment>
     );
 };
 

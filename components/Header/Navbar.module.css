@@ -1,0 +1,28 @@
+.nav {
+    /* background-color: #fff5f4; */
+    height: 65px;
+    display: flex;
+    width: 100%;
+}
+
+.navItems {
+    display: inline-block;
+    margin: 20px;
+    padding: 0px;
+}
+
+.container {
+    width: 70%;
+}
+
+.logo {
+    font-weight:bolder;
+    display: inline-block;
+    width: 30%;
+    height: 100%;
+    text-align: center;
+    align-items: center;
+}
+.log{
+    font-size: xx-large;
+}
